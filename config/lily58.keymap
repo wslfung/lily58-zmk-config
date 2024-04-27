@@ -95,6 +95,8 @@
 &bootloader  &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans             &trans          &trans           &trans  &trans  &bootloader
                                          &trans        &trans        &trans        &trans    &trans  &kp C_VOLUME_DOWN  &kp C_MUTE      &kp C_VOLUME_UP
             >;
+
+            label = "sys";
         };
     };
 
