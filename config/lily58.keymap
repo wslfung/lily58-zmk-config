@@ -109,7 +109,7 @@
 
         extra3 {
             status = "reserved";
-        }
+        };
 
     };
 
