@@ -89,15 +89,28 @@
 
         sys {
             bindings = <
-&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &kp CAPS           &kp KP_NUMLOCK  &kp SCROLLLOCK   &trans  &trans  &out OUT_TOG
-&trans       &trans        &trans        &trans        &trans        &trans                          &trans             &trans          &trans           &trans  &trans  &trans
-&trans       &trans        &trans        &trans        &trans        &trans                          &trans             &trans          &trans           &trans  &trans  &trans
-&bootloader  &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans             &trans          &trans           &trans  &trans  &bootloader
+&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &kp CAPS           &kp KP_NUMLOCK  &kp SCROLLLOCK   &trans  &studio_unlock   &out OUT_TOG
+&trans       &trans        &trans        &trans        &trans        &trans                          &trans             &trans          &trans           &trans  &trans           &trans
+&trans       &trans        &trans        &trans        &trans        &trans                          &trans             &trans          &trans           &trans  &trans           &trans
+&bootloader  &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans             &trans          &trans           &trans  &trans           &bootloader
                                          &trans        &trans        &trans        &trans    &trans  &kp C_VOLUME_DOWN  &kp C_MUTE      &kp C_VOLUME_UP
             >;
 
             label = "sys";
         };
+
+        extra1 {
+            status = "reserved";
+        };
+
+        extra2 {
+            status = "reserved";
+        };
+
+        extra3 {
+            status = "reserved";
+        };
+
     };
 
     conditional_layers {
