@@ -1,0 +1,195 @@
+layout: {zmk_keyboard: lily58}
+layers:
+  Base:
+  - [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  - ['0', '-', TAB, Q, W, E, R, T, Y, U]
+  - - I
+    - O
+    - P
+    - \
+    - BACKSPACE
+    - {t: A, h: LCTRL}
+    - {t: S, h: LEFT ALT}
+    - {t: D, h: LGUI}
+    - {t: F, h: LSHIFT}
+    - G
+  - - H
+    - {t: J, h: RSHFT}
+    - {t: K, h: RGUI}
+    - {t: L, h: RALT}
+    - {t: ;, h: RCTRL}
+    - ''''
+    - LSHFT
+    - Z
+    - X
+    - C
+  - [V, B, Raise, Lower, N, M, ',', ., /, RSHFT]
+  - [Ctl+INS, Sft+INS, ENTER, Lower, SPACE, DEL, Ctl+PG UP, Ctl+PG DN]
+  Lower:
+  - [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10]
+  - - F11
+    - F12
+    - {t: ▽, type: trans}
+    - '`'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - PRINTSCREEN
+    - {t: ▽, type: trans}
+    - INS
+    - HOME
+  - - UP
+    - END
+    - PG UP
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - DEL
+    - LEFT
+    - DOWN
+    - RIGHT
+    - PG DN
+    - RGUI
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - '-'
+    - '='
+    - '['
+    - ']'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  Raise:
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '8'
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - '-'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - KP 7
+  - - KP 8
+    - KP 9
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - KP 4
+    - KP 5
+    - KP 6
+    - KP PLUS
+    - KP EQUAL
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - KP 1
+    - KP 2
+    - KP 3
+    - /
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - KP 0
+    - KP DOT
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  sys:
+  - - BT CLR
+    - {t: BT, h: '0'}
+    - {t: BT, h: '1'}
+    - {t: BT, h: '2'}
+    - {t: BT, h: '3'}
+    - {t: BT, h: '4'}
+    - CAPS
+    - KP NUMLOCK
+    - SCROLLLOCK
+    - {t: ▽, type: trans}
+  - - '&studio_unlock'
+    - OUT TOG
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '&bootloader'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '&bootloader'
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - VOLUME DOWN
+    - MUTE
+    - VOLUME UP
